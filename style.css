@@ -1,0 +1,57 @@
+/* Reset some default styles and set font-family */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the navigation */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the links */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the main content section */
+section {
+    padding: 20px;
+}
+
+/* Style developer profile image */
+.developer-profile img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Style activity section */
+.activity {
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
